@@ -1,4 +1,4 @@
-name: Run D2D Polling
+name: Run D2D
 
 on:
   schedule:
