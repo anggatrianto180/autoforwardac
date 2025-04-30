@@ -1,4 +1,4 @@
-name: Run D2D
+name: Run d2d
 
 on:
   schedule:
@@ -26,4 +26,4 @@ jobs:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           FROM_CHANNEL: ${{ secrets.FROM_CHANNEL }}
           TO_CHANNEL: ${{ secrets.TO_CHANNEL }}
-        run: python d2d_polling.py
+        run: python d2d.py
